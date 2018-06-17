@@ -38,6 +38,7 @@ end
 
 # Define your play method below
 def play(board) 
+<<<<<<< HEAD
   input = 0
   puts "you only get x choices"
   while input <= 8 
@@ -45,5 +46,11 @@ def play(board)
   turn(board)
   
   
+=======
+  while index < 8 
+ turn(board)
+else
+  puts "you only get x choices"
+>>>>>>> 76deb96c4ffb92af3ea96729bda3ebac6f8fd863
 end
 end
